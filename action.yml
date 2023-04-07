@@ -1,0 +1,10 @@
+name: 'Mailpit server for Github actions'
+description: 'Start a mailpit server'
+
+branding:
+  icon: 'mail'
+  color: 'gray-dark'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
